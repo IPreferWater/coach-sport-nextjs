@@ -2,6 +2,9 @@ module.exports = {
   purge: [],
   theme: {
     extend: {
+      fontSize: {
+        '7xl': '4.5rem'
+      },
       colors: {
         'cel-green': '#16a085',
         'beach-green': '#7eb79d',
