@@ -29,7 +29,7 @@ export default class Home extends React.Component {
         </div>
         </div>
         <div className="">
-        <LazyImage fileName={'index_1.jpg'} loaded={this.state.imgLoaded} ></LazyImage>
+        <LazyImage fileName={'santana_coaching.jpg'} loaded={this.state.imgLoaded} ></LazyImage>
         </div>
         </div>
 
