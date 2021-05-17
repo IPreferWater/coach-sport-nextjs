@@ -26,6 +26,17 @@ function Footer() {
                         </Link>
                     </div>
                 </nav>
+
+                <nav className="flex flex-col">
+                    <h1 className="text-center">Contact</h1>
+                    <div className="m-2 flex flex-row ">
+                        <Link href="mailto:ou.santana@gmail.com">
+                            <a className="px-4 text-4xl" target="_blank">
+                            📧
+                            </a>
+                        </Link>
+                    </div>
+                </nav>
             </div>
         </footer>
     )
