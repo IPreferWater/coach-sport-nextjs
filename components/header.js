@@ -18,12 +18,12 @@ import Link from 'next/link'
         <Link href="/">
           <h1 className="flex items-center text-white no-underline">
             <span className="text-xl font-bold tracking-tight">
-              company name
+              Gorilla Development
               </span>
           </h1>
         </Link>
 
-        <nav
+       {/*  <nav
           className={ ` ${
             this.state.isExpanded ? `` : `hidden sm:contents`
           } flex flex-col sm:flex-row justify-between text-white font-extrabold w-2/3`}
@@ -45,7 +45,7 @@ import Link from 'next/link'
               <a>{link.title}</a>
             </Link>
           ))}
-        </nav>
+        </nav> */}
 
          <button
           className="flex items-center block px-3 py-2 text-white border border-white rounded sm:hidden"
