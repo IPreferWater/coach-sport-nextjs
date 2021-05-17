@@ -52,7 +52,7 @@ export default class Home extends React.Component {
           <div className=" my-4">
           <div className="text-2xl w-full">Séance visant à améliorer le système cardio vasculaire  et l'endurance, adaptée à  la perte de poids et au renforcement musculaires</div>
           <div className="flex flex-row justify-center">
-          <Link  href={"https://www.google.com/maps/@50.6444298,3.0488013,18z"}>
+          <Link  href={"https://www.google.com/maps/dir//50.6444043,3.049842/@50.6444298,3.0488013,18z/data=!4m2!4m1!3e1"}>
                             <a className="px-4 flex flex-row items-center text-blue-500" target="_blank">
                               <div>lien googlemap</div>
                               <div className="ml-2 text-3xl">📌</div>
