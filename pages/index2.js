@@ -69,6 +69,7 @@ listTitle1="Idéal pour :"
 liste1= {['Affiner sa silhouette','Gagner en force','Prise de masse','Augmentation de la dépense énergétique', 'Augmentation des fibres musculaires et baisse de la masse graisseuse']}
 listTitle2="Avec une variété d’exercices au poids du corps ou charges additionnelles :"
 liste2= {['Haltères','Kettlebell','Trx','Swiss ball', 'Bosu balance', 'Elastique']}
+bg="tana-red"
 />
 </div>
 
@@ -80,6 +81,7 @@ listTitle1="Idéal pour :"
 liste1= {['Augmenter les capacités cardio-vasculaires','Evacuer votre stress','Baisse de la masse graisseuse','Baisse de la pression artérielle ']}
 listTitle2="Avec une variété d’exercices"
 liste2= {['Course à pied','Vélo','Step','Circuit training']}
+bg="tana-red-2"
 />
 </div>
 
@@ -91,6 +93,7 @@ listTitle1="Idéal pour :"
 liste1= {['Manque de souplesse','Mouvements limités','Douleur ou gêne ']}
 listTitle2="Avec une variété d’exercices au poids du corps ou charges additionnelles :"
 liste2= {['Stretching','Équilibre','Auto-massage']}
+bg="tana-red-3"
 />
 </div>
 
@@ -102,6 +105,7 @@ listTitle1="Idéal pour :"
 liste1= {['Développer les qualités physiques','Perfectionner dans la discipline','Augmenter la force, puissance, explosivité, endurance, agilité, souplesse et équilibre']}
 listTitle2="Avec une :"
 liste2= {['Préparation physique de pré-saison et inter-saison','Travail de prévention de blessure','Développement des qualités physiques requises en fonction de la discipline']}
+bg="tana-red-4"
 />
 </div>
 </div>

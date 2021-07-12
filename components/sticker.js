@@ -1,8 +1,8 @@
 
-export function Sticker({ title, subTitle, listTitle1, liste1, listTitle2, liste2 }) {
+export function Sticker({ title, subTitle, listTitle1, liste1, listTitle2, liste2, bg }) {
     console.log(liste1)
     return (  
-         <div className="flex flex-col bg-green-600 rounded-lg p-4 text-white">
+         <div className={`flex flex-col bg-${bg} rounded-lg p-4 text-white`}>
     <div className="font-bold text-3xl text-center mb-2">{title}</div>
     <div className="mb-4">{subTitle}</div>
     <div className="font-bold">{listTitle1}</div>
