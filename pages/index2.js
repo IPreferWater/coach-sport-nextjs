@@ -1,5 +1,6 @@
 import styles from '../styles/Home.module.css'
 import {Sticker}  from '@components/sticker'
+import {StickerTarif}  from '@components/sticker-tarif'
 
 export default class Home extends React.Component {
 
@@ -69,7 +70,7 @@ listTitle1="Idéal pour :"
 liste1= {['Affiner sa silhouette','Gagner en force','Prise de masse','Augmentation de la dépense énergétique', 'Augmentation des fibres musculaires et baisse de la masse graisseuse']}
 listTitle2="Avec une variété d’exercices au poids du corps ou charges additionnelles :"
 liste2= {['Haltères','Kettlebell','Trx','Swiss ball', 'Bosu balance', 'Elastique']}
-bg="tana-red-2"
+bg="tana-green"
 />
 </div>
 
@@ -81,7 +82,7 @@ listTitle1="Idéal pour :"
 liste1= {['Augmenter les capacités cardio-vasculaires','Evacuer votre stress','Baisse de la masse graisseuse','Baisse de la pression artérielle ']}
 listTitle2="Avec une variété d’exercices"
 liste2= {['Course à pied','Vélo','Step','Circuit training']}
-bg="tana-red-3"
+bg="tana-blue"
 />
 </div>
 
@@ -93,7 +94,7 @@ listTitle1="Idéal pour :"
 liste1= {['Manque de souplesse','Mouvements limités','Douleur ou gêne ']}
 listTitle2="Avec une variété d’exercices au poids du corps ou charges additionnelles :"
 liste2= {['Stretching','Équilibre','Auto-massage']}
-bg="tana-red-4"
+bg="tana-green"
 />
 </div>
 
@@ -105,16 +106,22 @@ listTitle1="Idéal pour :"
 liste1= {['Développer les qualités physiques','Perfectionner dans la discipline','Augmenter la force, puissance, explosivité, endurance, agilité, souplesse et équilibre']}
 listTitle2="Avec une :"
 liste2= {['Préparation physique de pré-saison et inter-saison','Travail de prévention de blessure','Développement des qualités physiques requises en fonction de la discipline']}
-bg="tana-red-5"
+bg="tana-blue"
 />
 </div>
+</div>
+{/* tarifs */}
+<div className="flex flex-col md:flex-row md:justify-between">
+<StickerTarif title="Coaching individuel" prices={[50,40,30,25]}/>
+<StickerTarif title="Coaching en duo" prices={[60,50,40,30]}/>
+<StickerTarif title="Coaching en trio" prices={[75,60,45,45]}/>
 </div>
       </div>
     )
   }
 }
 
-export async function getStaticProps() {
+/*export async function getStaticProps() {
 
 const todo = {"1":"post"}
   return {
@@ -122,4 +129,4 @@ const todo = {"1":"post"}
       todo: todo,
     }
   }
-}
+}*/
