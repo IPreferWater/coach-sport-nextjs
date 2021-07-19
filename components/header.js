@@ -15,13 +15,17 @@ import Link from 'next/link'
   return (
     <header className="bg-tana-black">
       <div className="flex flex-col sm:flex-row items-center justify-between p-4 md:p-8">
+        
         <Link href="/">
+        <a>
           <h1 className="flex items-center text-white no-underline">
             <span className="text-xl font-bold tracking-tight">
               Gorilla Development
               </span>
           </h1>
+          </a>
         </Link>
+        
 
       </div>
     </header>

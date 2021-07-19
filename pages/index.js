@@ -2,6 +2,7 @@ import styles from '../styles/Home.module.css'
 import {DiplomaIcon}  from '@components/icons/diploma-icon'
 import {PassionIcon}  from '@components/icons/passion-icon'
 import { LazyImage} from '@components/lazy-image'
+import {StickerTarif}  from '@components/sticker-tarif'
 import Link from 'next/link'
 
 export default class Home extends React.Component {
@@ -31,6 +32,14 @@ export default class Home extends React.Component {
         <LazyImage fileName={'santana_coaching.jpg'} loaded={this.state.imgLoaded} ></LazyImage>
         </div>
         </div>
+
+
+{/* button */}
+<Link href="/coach-sportif">
+<a className="my-20 text-4xl border-4 border-tana-black p-6 w-full text-center">
+          Qu'est ce qu'un coach sportif
+          </a>
+        </Link>
 
 
   {/* presentation des seances */}
@@ -106,7 +115,7 @@ export default class Home extends React.Component {
   </div>
 
 
-
+          
             {/* presentation */}
             <div className="flex flex-col w-full md:w-full md:flex-row my-20 text-center mb-4">
         <div className="w-full lg:w-1/2">
@@ -140,8 +149,32 @@ export default class Home extends React.Component {
         </div>
        
         {/* tarifs */}
+        <div className="flex flex-col md:flex-row md:justify-between">
+        <StickerTarif title="Coaching individuel" prices={[50,40,30,25]}/>
+        <StickerTarif title="Coaching en duo" prices={[60,50,40,30]}/>
+        <StickerTarif title="Coaching en trio" prices={[75,60,45,45]}/>
         
-        <div>
+        <div className={`flex flex-col border-2 border-tana-green rounded-lg p-4 m-8`}>
+    <div className="text-center text-2xl text-gray-600">jiu-jitsu brésilien</div>
+
+    <div className="flex flex-row items-center my-2">
+            <div>✅ illimité 1 mois ➡ 40€</div>
+            <div className="flex flex-col text-xs ml-4 text-gray-600">
+              <div>soit</div>
+              <div>12 séances / mois</div>
+              </div>
+            </div>
+
+      <div className="flex flex-row items-center my-2">
+            <div>✅ 1 séance ➡ 10€</div>
+            </div>
+
+
+</div>
+
+        </div>
+        
+      {/**  <div>
        <div className="text-2xl font-bold">tarifs</div>
        <div className="grid grid-cols-1 md:grid-cols-3">
        <div className="min-h-200 min-w-200 rounded overflow-hidden shadow-lg relative">
@@ -191,6 +224,8 @@ export default class Home extends React.Component {
     </div>
        </div>
 
+
+
        <div className="min-h-200 min-w-200 rounded overflow-hidden shadow-lg relative">
     <div className="px-6 py-4 pb-16">
       <div className="flex flex-row justify-between">
@@ -221,7 +256,7 @@ export default class Home extends React.Component {
        </div>
 
 
-       </div>
+       </div> */}
       </div>
     )
   }
