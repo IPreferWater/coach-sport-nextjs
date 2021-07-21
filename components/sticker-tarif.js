@@ -8,7 +8,7 @@ export function StickerTarif({ title, prices, listTitle1, liste1, listTitle2, li
             <div>✅ {index+1} séance / semaine ➡ {price}€</div>
             <div className="flex flex-col text-xs ml-4 text-gray-600">
               <div>soit</div>
-              <div>{price*4}€ / mois</div>
+              <div>{price* 4 * (index+1)}€ / mois</div>
               </div>
             </div>
           ))}
